@@ -35,3 +35,22 @@ code { font-size: 0.9em; background: rgba(127, 127, 127, 0.15); padding: 1px 5px
 hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); text-align: center; }
 .back { margin: 0; }
+.store { margin: 20px 0 4px; }
+.store-button {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--paper);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 22px;
+  border-radius: 999px;
+}
+.store-button:hover { opacity: 0.85; }
+.hero .meta { font-size: 0.85rem; margin: 0; }
+.teaser {
+  margin-top: 20px;
+  padding: 12px 14px;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+}
